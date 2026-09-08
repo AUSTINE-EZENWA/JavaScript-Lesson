@@ -1,0 +1,39 @@
+//Implicit Arrow Function allows to write the code in a single code
+// {
+//     const stringName = name => console.log(`My name is ${name}`);
+// stringName("Matthew");
+// }
+
+// {
+//     const sayHello = hello => console.log(`I greet you ${hello}`)
+//     sayHello("Nddidiamaka")
+// }
+
+//     const getStringLength = mynmae => mynmae.length;
+//     console.log(getStringLength("Obiora Chukwu"))
+
+//Explicit Arrow Functions allows to write multiple lines of code e.g.
+const fizzBuzz = (number) =>{
+     if(number % 3 === 0 && number % 5 === 0){
+        return "Fizz Buzz";
+     }else
+    if(number % 3 === 0){
+        return "Fizz";
+    }else
+        if(number % 5 === 0){
+        return "Buzz";    
+    }else{
+        return number;
+            }      
+}
+const fizzBuzzResult = fizzBuzz(10);
+     console.log(fizzBuzzResult); 
+{
+    const rectanglePerimeter = (l, w) => console.log(2 *(l * w))
+    rectanglePerimeter(3, 6);
+}
+
+const perimeterRectangle = (w, l) =>{
+    return 2 * (l * w);
+}
+    console.log(perimeterRectangle(5, 2));

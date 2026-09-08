@@ -1,0 +1,16 @@
+Activity 4 Part 4: Collaborative Technical Challenge
+Goal: To buiild a reporter that displays rounded score of a Student and the student's name in uppercase
+What the Program need from the user is the Student name and score 
+Math and String Method: Math.round() and String.toUppercase() 
+The final message should display the student name in uppercase and the score without decimal point
+Solution:   Ask for the user's name
+            Use String.toUppercase to change the user's name to uppercase
+            Ask for the Student's score 
+            Use Math.round to round the score to a whole number 
+
+alert(`Here is your Report 
+Student Name: ${studentName} 
+Student School${studentScore}`)
+
+Part 4: Collaborative Technical Challenge
+Goal: To create a username by joining the name and favourite number collected from users

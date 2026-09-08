@@ -1,0 +1,42 @@
+// //push method add element to an array
+// const skills = ["Tailoring", "driving", "tiling", "athlet"]
+// skills.push("POP","Caprter");
+// console.log(skills)
+
+// // pop method remove element from an array
+// const popSkills = ["Tailoring", "driving", "tiling", "athlete"]
+// popSkills.pop("POP","Caprter");
+// console.log(popSkills)
+
+// //unshift method use to add new items to the begining of an array
+// const works = ["Tailoring", "driving", "tiling", "athlet"]
+// works.unshift("POP","Caprter");
+// console.log(works)
+
+// //shift method use to remove the first items from an array
+// const workers = ["Tailoring", "driving", "tiling", "athlet"]
+// workers.shift("POP","Caprter");
+// console.log(workers)
+
+// //concat methods
+// const myworkers = ["Tailoring", "driving", "tiling", "athlet"];
+// const names = ["Uche", "Emeka", "Chinedu", "Amara"];
+// const concatArrays = names.concat(myworkers);
+// console.log(concatArrays);
+
+// //Joine method is use to join all element of an array into a string
+// const mynames = ["Uche", "Emeka", "Chinedu", "Amara"];
+// const joinNames = mynames.join(" ")
+// console.log(joinNames)
+
+// //slice method is use to extract part of an array and removes the part this sliced
+// const cars = ["Toyota", "Benz", "Camry", "Lexus", "Ford"]
+// const sliceCars = cars.slice(4, 5);
+// console.log(sliceCars);
+
+//splice method is use to modify the original array and returns the the remove element. it is used to remove, replace or insert element into an array
+const cars = ["Toyota", "Benz", "Camry", "Lexus", "Ford"]
+const spiceCars = cars.splice(1, 3, "BMW", "Audi");
+console.log(spiceCars)
+console.log(cars)
+
