@@ -1,0 +1,54 @@
+//convert this normal function to arrow function
+function minus(a, b){
+    return a - b;
+
+}
+const subtract = (c,d) =>{
+    return c - d;
+};
+ console.log(subtract(5, 3))
+
+ // convert into arrow function 
+ const greet = function(name){
+    console.log(`my name is ${name}`)
+ };
+ const greetMe = (name) =>{
+    console.log(`greet me as ${name}`)
+ }
+ greetMe("John")
+ greet("The Hero")
+
+ //use map and arrow function to double every number
+ const numbers = [5, 10, 15, 20];
+ const number = numbers.map((number) =>{
+    return number * 2
+ })
+  console.log(number);
+
+ //use filter and arrow function to double every number
+ const myFilternumb = [35, 75, 45, 90, 60, 25];
+ const filterNum = myFilternumb.filter((numFilter) =>{
+    //return numFilter > 50;
+    return numFilter < 50;
+ })
+  console.log(filterNum);
+
+  const students = [
+    {
+        name: "James",
+        age: 19
+    },
+    {
+        name: "Chidi",
+        age: 22
+    },
+    {
+        name: "Amara",
+        age: 25
+    }
+  ]
+  students.forEach((student)=>{
+    console.log(student.name);
+    console.log(`${student.name} is ${student.age} years old`)
+
+  })

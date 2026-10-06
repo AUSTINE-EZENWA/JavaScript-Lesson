@@ -44,3 +44,23 @@ const [score1, , score3] = score
  console.log(score);
  console.log(score1);
  console.log(score3);
+
+ //Destructuring inside forEach()
+ const transactions = [
+    {
+    type: "deposit",
+    amount: 2000
+ },
+
+ {
+    type: "withdrawal", 
+    amount: 5000
+ }
+
+ ]
+ transactions.forEach(({type, amount})=>{
+    console.log(type);
+    console.log(amount);
+ })
+    
+    
